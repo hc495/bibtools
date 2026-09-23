@@ -13,7 +13,8 @@ git clone https://github.com/hc495/bibtools.git
 2. Install the required packages.
 
 ```bash
-pip install bibtexparser requests
+pip install "bibtexparser<2"
+pip install requests
 ```
 
 3. Run the script.
